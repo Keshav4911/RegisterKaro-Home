@@ -1,0 +1,437 @@
+.headerLogo884459461Icon {
+  width: 124px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+}
+.linkFacebook,
+.linkTwitter {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkTwitter {
+  height: 18.6px;
+  width: 18px;
+  min-height: 19px;
+}
+.socialLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.columns {
+  height: 143.6px;
+  width: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.gstRegistration,
+.services,
+.virtualOffice {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+}
+.gstRegistration,
+.virtualOffice {
+  min-width: 86px;
+}
+.gstRegistration {
+  min-width: 111px;
+}
+.coworkingSpaces {
+  display: inline-block;
+  min-width: 122px;
+}
+.businessRegistration,
+.coworkingSpaces {
+  position: relative;
+}
+.dedicatedDesk,
+.mailingAddress {
+  position: relative;
+  display: inline-block;
+  min-width: 105px;
+}
+.dedicatedDesk {
+  min-width: 104px;
+}
+.columnInfo,
+.pageLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pageLinks {
+  gap: var(--gap-3xs);
+  color: var(--color-silver-100);
+}
+.columnInfo {
+  gap: var(--gap-11xl);
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+}
+.aboutUs,
+.blog,
+.contactUs,
+.faqs,
+.findLocation {
+  position: relative;
+  display: inline-block;
+  min-width: 61px;
+}
+.blog,
+.contactUs,
+.faqs,
+.findLocation {
+  min-width: 73px;
+}
+.blog,
+.faqs,
+.findLocation {
+  min-width: 30px;
+}
+.faqs,
+.findLocation {
+  min-width: 91px;
+}
+.faqs {
+  min-width: 38px;
+}
+.cookies,
+.disclaimer,
+.otherLink,
+.privacyPolicy {
+  position: relative;
+  display: inline-block;
+  min-width: 74px;
+}
+.cookies,
+.disclaimer,
+.privacyPolicy {
+  min-width: 92px;
+}
+.cookies,
+.disclaimer {
+  min-width: 71px;
+}
+.cookies {
+  min-width: 53px;
+}
+.siteInfo {
+  width: 504px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+}
+.joinTheNewsletter {
+  position: relative;
+  font-weight: 600;
+}
+.emailSubscription,
+.subscribe {
+  font-size: var(--font-size-base);
+  font-family: var(--font-assistant);
+}
+.emailSubscription {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-darkslategray-400);
+  height: 37px;
+  flex: 1;
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mid);
+  box-sizing: border-box;
+  color: var(--color-darkgray-100);
+  min-width: 153px;
+}
+.subscribe {
+  position: relative;
+  display: inline-block;
+  color: var(--color-white);
+  text-align: left;
+  min-width: 70px;
+}
+.emailSubscription1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-11xl);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.emailSubscription1:hover {
+  background-color: var(--color-dodgerblue);
+}
+.content,
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.form {
+  align-self: stretch;
+  flex-direction: row;
+}
+.content {
+  width: 378px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.emailDetailsIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.emailDetails {
+  position: absolute;
+  top: 1.5px;
+  left: 32px;
+  display: flex;
+  align-items: center;
+  min-width: 106px;
+  white-space: nowrap;
+}
+.email1Icon {
+  position: absolute;
+  top: 0;
+  left: 186px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.virtualofficeteamcowork {
+  position: absolute;
+  top: 1.5px;
+  left: 218px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.navigation21Icon {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.palmCourtMehrauliGurgaon {
+  position: absolute;
+  top: 42px;
+  left: 32px;
+  display: flex;
+  align-items: center;
+  width: 415px;
+}
+.contactInfo {
+  align-self: stretch;
+  height: 84px;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.contact {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-silver-100);
+}
+.container,
+.footerTop,
+.newsletter {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.newsletter {
+  width: 447px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-lg);
+}
+.container,
+.footerTop {
+  flex-direction: row;
+}
+.footerTop {
+  width: 1449px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.container {
+  width: 1899.5px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.virtualOfficeIn1 {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-darkgray-200);
+}
+.cityCategories {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.virtualOfficeWith {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.cityCategories3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.bottomFooterChild,
+.cityLinks {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cityLinks {
+  width: 1482px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-23xl);
+}
+.bottomFooterChild {
+  width: 1463px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkgray-200);
+}
+.copyrightInfo {
+  width: 1448px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.bottomFooter,
+.copyrightInfoWrapper,
+.footer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.copyrightInfoWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  color: var(--color-darkgray-200);
+}
+.bottomFooter,
+.footer {
+  background-color: var(--color-darkslategray-400);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-sm) var(--padding-27xl)
+    var(--padding-210xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xl-5);
+}
+.footer {
+  background-color: var(--color-gray-200);
+  align-items: flex-end;
+  padding: var(--padding-64xl) 0 0;
+  gap: var(--gap-38xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 1350px) {
+  .footerTop {
+    flex-wrap: wrap;
+  }
+  .bottomFooter {
+    padding-left: var(--padding-95xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-top: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .siteInfo {
+    flex-wrap: wrap;
+    gap: var(--gap-16xl);
+  }
+  .cityLinks {
+    gap: var(--gap-2xl);
+  }
+  .copyrightInfo {
+    flex-wrap: wrap;
+  }
+  .bottomFooter {
+    padding-left: var(--padding-38xl);
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-9xl);
+    padding-top: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .siteInfo {
+    gap: var(--gap-mid);
+  }
+  .form {
+    flex-wrap: wrap;
+  }
+  .newsletter {
+    gap: var(--gap-lg);
+  }
+}

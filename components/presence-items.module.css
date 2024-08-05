@@ -1,0 +1,65 @@
+.nationwidePresence1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.nationwidePresenceTxtContainer {
+  width: 100%;
+}
+.nationwidePresence {
+  margin: 0;
+  width: 259px;
+  height: 32px;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.presenceDetailsShape {
+  height: 49px;
+  width: 28px;
+  position: relative;
+}
+.establishAPresence {
+  align-self: stretch;
+  width: 296px;
+  position: relative;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.benefitIconsTwo,
+.presenceItems {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.benefitIconsTwo {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.presenceItems {
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 450px) {
+  .nationwidePresence {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

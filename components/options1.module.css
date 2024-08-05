@@ -1,0 +1,95 @@
+.businessMailingAddressIcon {
+  width: 107.9px;
+  height: 107.9px;
+  position: relative;
+  border-radius: 53.93px;
+  object-fit: cover;
+}
+.businessMailingAddressWrapper {
+  height: 107.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-88xl);
+  box-sizing: border-box;
+}
+.centralizedBusinessHub {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.establishYourVirtual {
+  align-self: stretch;
+  position: relative;
+  line-height: 24.15px;
+  flex-shrink: 0;
+}
+.establishYourVirtualOfficeWrapper {
+  height: 73px;
+  width: 607.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.centralizedBusinessHubParent,
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.centralizedBusinessHubParent {
+  width: 607.8px;
+  align-items: flex-start;
+  gap: var(--gap-12xs-6);
+  min-height: 116px;
+  max-width: calc(100% - 196px);
+  flex-shrink: 0;
+}
+.options {
+  align-self: stretch;
+  height: 116px;
+  align-items: flex-end;
+  padding: var(--padding-83xl) var(--padding-5xl) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-69xl-2);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 1350px) {
+  .centralizedBusinessHubParent {
+    flex-wrap: wrap;
+  }
+  .options {
+    height: auto;
+  }
+}
+@media screen and (max-width: 925px) {
+  .centralizedBusinessHub {
+    font-size: var(--font-size-5xl);
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .centralizedBusinessHub {
+    font-size: var(--font-size-lg);
+    line-height: 14px;
+  }
+}

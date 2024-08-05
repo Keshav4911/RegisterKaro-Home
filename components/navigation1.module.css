@@ -1,0 +1,218 @@
+.headerLogo884459461Icon {
+  width: 124px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+}
+.headerLogo884459461Wrapper {
+  height: 89px;
+  width: 261.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workspaceServices {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameIcon {
+  position: absolute;
+  top: 0;
+  left: 152px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.workspaceServicesParent {
+  height: 24px;
+  width: 176px;
+  position: relative;
+}
+.getStarted,
+.more {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getStarted {
+  min-width: 74px;
+  white-space: nowrap;
+}
+.more {
+  min-width: 34px;
+}
+.enquireNowBtn,
+.help,
+.moreParent {
+  position: absolute;
+  top: 0;
+  height: 24px;
+}
+.enquireNowBtn {
+  left: 42px;
+  width: 24px;
+  overflow: hidden;
+}
+.help,
+.moreParent {
+  left: 134.5px;
+  width: 66px;
+}
+.help {
+  text-decoration: none;
+  left: 261px;
+  line-height: 24px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.3px;
+  min-width: 33.3px;
+}
+.getStartedParent {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  min-width: 191px;
+}
+.frameParent,
+.navigationInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+}
+.navigationInner {
+  width: 530.3px;
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enquireButtonChild {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.enquireButton {
+  width: 66.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.enquireNow {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.87px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-assistant);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 103.5px;
+}
+.enquireButtonParent,
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link {
+  cursor: pointer;
+  border: 0;
+  padding: 15.5px var(--padding-4xl) var(--padding-base-5);
+  background-color: var(--color-mediumslateblue);
+  flex: 1;
+  border-radius: var(--br-5xl);
+  white-space: nowrap;
+}
+.link:hover {
+  background-color: var(--color-dodgerblue);
+}
+.enquireButtonParent {
+  align-self: stretch;
+  gap: var(--gap-24xl-5);
+}
+.navigation,
+.navigationChild {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.navigationChild {
+  width: 261px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+}
+.navigation {
+  align-self: stretch;
+  box-shadow: 0 0 16px rgba(57, 57, 57, 0.1);
+  backdrop-filter: blur(5px);
+  background-color: var(--color-white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-xl) var(--padding-base);
+  gap: var(--gap-174xl-7);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 1350px) {
+  .navigation {
+    gap: var(--gap-78xl);
+  }
+}
+@media screen and (max-width: 925px) {
+  .frameParent {
+    gap: var(--gap-11xl);
+  }
+  .navigation {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .enquireButtonParent {
+    gap: var(--gap-3xl);
+  }
+  .navigation {
+    gap: var(--gap-5xl);
+  }
+}

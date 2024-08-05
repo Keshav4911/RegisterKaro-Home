@@ -1,0 +1,87 @@
+.cityContentOneChild,
+.noida {
+  position: relative;
+  flex-shrink: 0;
+}
+.cityContentOneChild {
+  width: 45.3px;
+  height: 45.3px;
+  border-radius: 11.68px 11.68px 0 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.noida {
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 36px;
+}
+.cityContentOne,
+.cityNameOne,
+.cityOne {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cityNameOne {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) 0 var(--padding-9xs);
+}
+.cityContentOne,
+.cityOne {
+  flex-direction: column;
+}
+.cityContentOne {
+  gap: var(--gap-2xl-8);
+}
+.cityOne {
+  padding: var(--padding-9xs-5) 0 0;
+}
+.bangalore1Icon {
+  height: 53.3px;
+  width: 53.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image3Icon {
+  width: 45.6px;
+  height: 45.6px;
+  position: relative;
+  object-fit: cover;
+}
+.imagePairOne,
+.imagePairOne1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-6) var(--padding-8xs) 0 0;
+}
+.imagePairOne1 {
+  padding: var(--padding-9xs-6) var(--padding-9xs) 0 0;
+}
+.image3Icon1 {
+  width: 45.3px;
+  height: 45.3px;
+  position: relative;
+  object-fit: cover;
+}
+.locationImages {
+  width: 579.4px;
+  margin: 0 !important;
+  position: absolute;
+  right: -533.7px;
+  bottom: -45.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-assistant);
+}

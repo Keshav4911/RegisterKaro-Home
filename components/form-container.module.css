@@ -1,0 +1,246 @@
+.searchNearbyBtnChild {
+  width: 1920px;
+  height: 388px;
+  position: relative;
+  background: linear-gradient(180deg, #000, rgba(102, 102, 102, 0));
+  display: none;
+  max-width: 100%;
+}
+.fromASingle {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 324px;
+  z-index: 1;
+}
+.trendingCities {
+  width: 18.8px;
+  position: relative;
+  font-size: var(--font-size-45xl-9);
+  letter-spacing: -1px;
+  line-height: 7.84px;
+  font-family: var(--font-georgia);
+  color: var(--color-orangered);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.searchInputs {
+  width: 517.8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.discoverTheUltimate {
+  margin: 0;
+  width: 961px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  line-height: 56px;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.citySearch,
+.searchNearbyBtn {
+  display: flex;
+  align-items: flex-start;
+}
+.citySearch {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-8xl);
+  font-size: var(--font-size-37xl);
+}
+.searchNearbyBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000, rgba(102, 102, 102, 0));
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-238xl) var(--padding-221xl) var(--padding-11xl)
+    var(--padding-672xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  width: 100%;
+}
+.searchNearby {
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  min-width: 97px;
+}
+.button {
+  border-bottom: 1px solid var(--color-mediumslateblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) 0 0;
+}
+.divrtlOie8m1Iconalignmentcs {
+  width: 587.5px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-10xl);
+  max-width: 100%;
+}
+.label,
+.searchCity {
+  display: flex;
+  align-items: center;
+}
+.searchCity {
+  width: 83px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-assistant);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 16px;
+  position: relative;
+  line-height: 16px;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  padding: 0;
+  z-index: 1;
+  margin-left: -571px;
+}
+.label {
+  position: absolute;
+  width: calc(100% - 271.1px);
+  top: 12px;
+  right: 239.1px;
+  left: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.icon,
+.search {
+  position: absolute;
+  top: 32.3px;
+}
+.icon {
+  left: 690.5px;
+  width: 17.9px;
+  height: 17px;
+  overflow: hidden;
+}
+.search {
+  left: 713.4px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.87px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58.4px;
+  height: 16px;
+  min-width: 58.4px;
+}
+.form {
+  align-self: stretch;
+  height: 104.6px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  max-width: 100%;
+}
+.divrtl1l2eiwbFormholdercss {
+  position: absolute;
+  top: 301px;
+  left: 531px;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  width: 858.6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-89xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumslateblue);
+}
+.formContainer {
+  margin-top: -546px;
+  align-self: stretch;
+  height: 513.6px;
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 1350px) {
+  .searchNearbyBtn {
+    padding-left: var(--padding-326xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .trendingCities {
+    font-size: var(--font-size-33xl);
+    line-height: 6px;
+  }
+  .discoverTheUltimate {
+    font-size: var(--font-size-26xl);
+    line-height: 45px;
+  }
+  .searchNearbyBtn {
+    padding-left: var(--padding-153xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .formContainer {
+    height: auto;
+    min-height: 513.6;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fromASingle {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .trendingCities {
+    font-size: var(--font-size-20xl);
+    line-height: 5px;
+  }
+  .discoverTheUltimate {
+    font-size: var(--font-size-15xl);
+    line-height: 34px;
+  }
+}

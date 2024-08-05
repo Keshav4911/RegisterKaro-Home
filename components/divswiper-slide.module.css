@@ -1,0 +1,195 @@
+.pictureOfficeSpaceCardSt {
+  align-self: stretch;
+  height: 304px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heading2 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 112.4px;
+}
+.aRangeOf {
+  margin: 0;
+}
+.aRangeOfContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.cardContainers,
+.cardContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.cardContainers {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-base);
+}
+.calendarsvgIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardIconsOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.byMonthOr {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 117.7px;
+}
+.cardColumnOne {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.teamssvgIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.teamsOfAny {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 122.7px;
+}
+.cardRowOne,
+.pricingCards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardRowOne {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.pricingCards {
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.from89 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.cardColumnThree {
+  width: 283.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  color: var(--color-teal);
+}
+.getAQuote {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-assistant);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.link {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue);
+  padding: var(--padding-10xs) var(--padding-lg) var(--padding-10xs)
+    var(--padding-lgi);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.link1:hover,
+.link:hover {
+  background-color: var(--color-dodgerblue);
+  border: 1px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-assistant);
+  color: var(--color-mediumslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.link1 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue);
+  padding: var(--padding-10xs) var(--padding-mid) var(--padding-10xs)
+    var(--padding-lgi);
+  background-color: var(--color-white);
+  border-radius: var(--br-base);
+  white-space: nowrap;
+}
+.link1:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.cardColumnFour,
+.cardRowTwo,
+.divswiperSlide,
+.link1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardColumnFour {
+  gap: var(--gap-base);
+}
+.cardRowTwo,
+.divswiperSlide {
+  padding: 0 var(--padding-base);
+}
+.divswiperSlide {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 298px;
+  max-width: 304px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}

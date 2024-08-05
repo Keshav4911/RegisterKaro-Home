@@ -1,0 +1,93 @@
+.pictureHomepageSerachv2Of,
+.pictureHomepageSerachv2OfWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pictureHomepageSerachv2Of {
+  height: 729px;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 424px 0 159px;
+  gap: 32.4px;
+  background-image: url(/picture--homepage-serachv2-officespacejpg@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.pictureHomepageSerachv2OfWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 35.6px;
+}
+.officeMembershipHeading {
+  height: 73.6px;
+  width: 73.6px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -14.4px;
+  left: calc(50% - 36.8px);
+  border-radius: 11.77px;
+  background-color: var(--color-whitesmoke-200);
+  z-index: 1;
+}
+.image1Icon {
+  height: 45.6px;
+  width: 45.6px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.officeMembershipHeadingParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 600px;
+  left: 604px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homePage,
+.homePageChild {
+  position: relative;
+  overflow: hidden;
+}
+.homePageChild {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: none;
+  z-index: 10;
+}
+.homePage {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0.2px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .pictureHomepageSerachv2Of {
+    padding-top: 276px;
+    padding-bottom: 103px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .pictureHomepageSerachv2Of {
+    height: auto;
+    gap: var(--gap-base);
+    padding-top: 179px;
+    padding-bottom: 67px;
+    box-sizing: border-box;
+  }
+}

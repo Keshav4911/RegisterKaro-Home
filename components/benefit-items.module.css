@@ -1,0 +1,56 @@
+.prestigiousBusinessAddresses {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.prestigiousBusinessAddressesContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.detailsShapes {
+  height: 49px;
+  width: 28px;
+  position: relative;
+}
+.accessToPrestigious {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+}
+.benefitIconsOne,
+.benefitItems {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.benefitIconsOne {
+  width: 329px;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.benefitItems {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 450px) {
+  .prestigiousBusinessAddressesContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}
